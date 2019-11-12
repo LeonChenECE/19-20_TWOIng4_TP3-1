@@ -2,6 +2,7 @@ import React from 'react';
 import './Main.css';
 import Switches from './Switches'
 import Profile from './Profile'
+import buttonNavbar from '../components/buttonNavbar'
 
 export default class main extends React.Component {
 	constructor(props) {
@@ -69,10 +70,10 @@ export default class main extends React.Component {
 				handleClick = {this.handleClick}
 				p_num = {this.state.selection}
 				/>
-
-				<button type="button" onclick={() => this.props.handleClick(0)}>Pikachu</button>
-				<button type="button" onclick="selection = 2;">Batman</button>
-				<button type="button" onclick={() => this.props.handleClick(2)}>Sonic</button>
+				
+				<button type="button" onClick={() => this.handleClick(0)}>Pikachu</button>
+				<button type="button" onClick={() => this.handleClick(1)}>Batman</button>
+				<button type="button" onClick={() => this.handleClick(2)}>Sonic</button>
 
 				<Profile 
 				ultraliter = {this.state.profiles[this.state.selection]}
