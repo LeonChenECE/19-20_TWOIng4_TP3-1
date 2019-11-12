@@ -1,0 +1,60 @@
+.Profile {
+  font-family: Segoe UI;
+  padding-top : 100px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+.ultraliter
+{
+  border-width: 100px;
+  border-color: black;
+  border : solid;
+  color: white;
+}
+
+.Profile_Picture {
+  width:15%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 300px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  text-align: left;
+  margin: 10px;
+  padding : 10px;
+  font-style: normal;
+  font-size: 20px;
+  color : black;
+}
+.Prenom {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.Nom {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.Date {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.Post
+{
+  margin-top: 30px;
+  text-align: left;
+  padding: 20px;
+  border-width: 100px;
+  border-color: black;
+  border : solid;
+}
+.the-post
+{
+  font-size: 30px;
+}
